@@ -4,7 +4,7 @@
 
 import UIKit
 
-extension AppDelegate {
+extension UIApplicationDelegate {
     func initWindow(with vc: UIViewController) {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = vc
