@@ -1,0 +1,6 @@
+use_frameworks!
+target 'NoIB_Tests' do
+  pod 'NoIB', :path => '../'
+  
+  
+end
